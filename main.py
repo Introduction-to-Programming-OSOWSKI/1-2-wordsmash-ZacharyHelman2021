@@ -1,4 +1,7 @@
 def wordSmash(a, b):
-    return wordSmash(a + b)
+    return a + b
 
-print(wordSmash(cat + dog))
+a = input("enter a word: ")
+b = input("enter another word: ")
+
+print(wordSmash(a, b))
